@@ -1,0 +1,33 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+    background: linear-gradient(to bottom, #ffffff 0%, #062b99 100%);
+   }
+.done-true{
+    text-decoration: line-through;
+    
+}
+.container{
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    color: white;
+    width: 550px;
+    background-color: #103e9459 ;
+   
+}
+
+h2{
+    margin-top: 20px;
+    text-shadow: 10px;
+    border-radius: 5px;
+    background-color: #08194b ;
+    
+    
+}
+.btn-primary{
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+}
+

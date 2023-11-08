@@ -1,0 +1,91 @@
+#container {
+  widows: 1000px;
+  height: 550px;
+  margin: 20px auto;
+}
+body {
+  background-size: cover;
+}
+#calcul {
+  width: 280px;
+  height: 385px;
+  background-color: #706e6e;
+  margin: 0 auto;
+  top: 20px;
+  position: relative;
+  border-radius: 15px;
+  box-shadow: 0px 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#result {
+  background-color: #fdfdfd;
+  height: 90px;
+  text-align: right;
+  font-size: 30px;
+  border-radius: 10px;
+}
+#cal {
+  height: 300px;
+}
+.operadar,
+.number,
+.vacio {
+  width: 40px;
+  height: 40px;
+  margin: 15px;
+  float: left;
+  border-radius: 50%;
+  border-width: 0;
+  font-weight: bold;
+  font-size: 15px;
+}
+.number,
+.vacio {
+  background-color: #eaedef;
+}
+.number,
+.operadar {
+  cursor: pointer;
+}
+.operadar:active,
+.number:active {
+  font-size: 13px;
+}
+.operadar:focus,
+.number:focus,
+.vacio:focus {
+  outline: 0;
+}
+button:nth-child(4) {
+  font-size: 20px;
+  background-color: #20b2aa;
+}
+button:nth-child(4) {
+  font-size: 20px;
+  background-color: #ffa500;
+}
+button:nth-child(8) {
+  font-size: 20px;
+  background-color: #f08080;
+}
+button:nth-child(12) {
+  font-size: 20px;
+  background-color: #7d93c0;
+}
+button:nth-child(13) {
+  font-size: 20px;
+  background-color: #afafafa1;
+}
+button:nth-child(15) {
+  font-size: 20px;
+  background-color: #9477af;
+}
+button:nth-child(16) {
+  font-size: 20px;
+  background-color: #20b2aa;
+}
+.foo {
+  margin-top: 100px;
+  text-align: center;
+  font-family: 'Roboto Mono', monospace;
+  color: darkslategrey;
+}

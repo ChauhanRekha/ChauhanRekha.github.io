@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Calculator</title>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap" rel="stylesheet">
+    </head>
+    <body>
+    
+            
+       
+        <div id="conatiner">
+            <div id="calcul">
+                <div>
+                    <span class="form-control" id="result"></span>
+                </div>
+                <div id="cal">
+                    <button class="number" id="seven" onclick="number(7)">7</button>
+                    <button class="number" id="eight" onclick="number(8)">8</button>
+                    <button class="number" id="nine" onclick="number(9)">9</button>
+                    <button class="operadar" id="division" onclick="operadar('/')">&#247;</button>
+                    <button class="number" id="four" onclick="number(4)">4</button>
+                    <button class="number" id="five" onclick="number(5)">5</button>
+                    <button class="number" id="six" onclick="number(6)">6</button>
+                    <button class="operadar" id="multipl" onclick="operadar('*')">&times;</button>
+                    <button class="number" id="one" onclick="number(1)">1</button>
+                    <button class="number" id="two" onclick="number(2)">2</button>
+                    <button class="number" id="three" onclick="number(3)">3</button>
+                    <button class="operadar" id="reset" onclick="operadar('-')">-</button>
+                    <button class="operadar" id="clear2" onclick="clear2()">C</button>
+                    <button class="number" id="zero" onclick="number(0)">0</button>
+                    <button class="operadar" id="equal" onclick="equal()">=</button>
+                    <button class="operadar" id="add" onclick="operadar('+')">+</button>
+                </div>
+            </div>
+        </div>
+        <script src="calu.js"></script>
+        <footer class="foo">
+            <div>
+                <p>Example of Calculator using CSS, HTML, node base and JavaScript</span></p>
+            </div>
+            </footer>
+    </body>
+</html>
